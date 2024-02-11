@@ -1,0 +1,49 @@
+/* styles/ProductListing.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .productCard {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .productCard img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .productCard h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .productCard p {
+    color: #555;
+  }
+  
+  /* Optional: Add additional styling for responsiveness */
+  @media screen and (max-width: 768px) {
+    .productCard {
+      width: calc(50% - 20px); /* 2 cards in a row */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .productCard {
+      width: 100%; /* 1 card in a row */
+    }
+  }
+  
