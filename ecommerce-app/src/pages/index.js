@@ -26,16 +26,21 @@ const Home = () => {
       <h1 className={styles.heading1}>Welcome to Our E-Commerce Store</h1>
       {categories.map((category) => (
         <div key={category.id} className={styles.productContainer}>
-          <h2 className="heading2">{category.name}</h2>
-          {products
-            .filter((product) => product.categoryId === category.id)
-            .map((product) => (
-              <div key={product.id} className={styles.productCard}>
-                <img src={product.image} alt={product.name} />
-                <h3>{product.name}</h3>
-                <p>${product.price.toFixed(2)}</p>
-              </div>
-            ))}
+          <div>
+            <h2 className="heading2">{category.name}</h2>
+          </div>
+          <div className={styles.productsDetail}>
+            {products
+              .filter((product) => product.categoryId === category.id)
+              .map((product) => (
+                <div key={product.id} className={styles.productCard}>
+                  <img src={product.image} alt={product.name} />
+                  <h3>{product.name}</h3>
+                  <p>${product.price.toFixed(2)}</p>
+                </div>
+              ))}
+          </div>
+
           <Link href={`/productListing?category=${category.name}`}>
             View {category.name} Products
           </Link>

@@ -20,7 +20,6 @@ const ProductListing = () => {
     }
   }, [category]);
 
-  // console.log(products);
   return (
     <div className={styles.container}>
       <h1>Product Listing for {category}</h1>

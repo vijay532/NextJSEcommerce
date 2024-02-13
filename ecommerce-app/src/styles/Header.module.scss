@@ -1,0 +1,29 @@
+/* styles/Header.module.scss */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000; /* Set a z-index to make sure the header is above other elements */
+    margin-bottom: 10%;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
