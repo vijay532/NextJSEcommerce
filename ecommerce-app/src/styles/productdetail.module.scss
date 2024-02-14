@@ -1,0 +1,41 @@
+/* styles/productdetail.module.scss */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  margin-block: 5%;
+
+  }
+  
+  .productDetail {
+    display: flex;
+    
+    margin-top: 20px;
+  
+    img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .description {
+      text-align: center;
+  
+      p {
+        margin-bottom: 10px;
+      }
+  
+      strong {
+        display: block;
+        margin-bottom: 10px;
+      }
+  
+      .addtocart {
+        width: 150px; /* Set the desired width for the button */
+        margin: 0 auto; /* Center the button */
+        background-color: orange;
+        color:black;
+      }
+    }
+  }
+  

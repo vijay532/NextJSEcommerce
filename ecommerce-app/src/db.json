@@ -1,0 +1,96 @@
+{
+    "categories": [
+      { "id": 1, "name": "Electronics" },
+      { "id": 2, "name": "Clothing" },
+      { "id": 3, "name": "Home & Kitchen" }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "price": 499.99,
+        "image": "/images/smartphone.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId":1 
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "price": 899.99,
+        "image": "/images/laptop.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId": 1
+      },
+      {
+        "id": 3,
+        "name": "T-Shirt",
+        "price": 19.99,
+        "image": "/images/tshirt.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId": 2
+      },
+      {
+        "id": 4,
+        "name": "Dress Shirt",
+        "price": 29.99,
+        "image": "/images/dress-shirt.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId": 2
+      },
+      {
+        "id": 5,
+        "name": "Coffee Maker",
+        "price": 59.99,
+        "image": "/images/coffee-maker.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId": 3
+      },
+      {
+        "id": 6,
+        "name": "Cookware Set",
+        "price": 99.99,
+        "image": "/images/cookware-set.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "categoryId": 3
+      }
+    ],
+    "productByCategory":{
+      "Electronics": [
+        {
+          "id": 1,
+          "name": "Smartphone",
+          "image": "/images/smartphone.jpg",
+          "price": 499.99
+        },
+        {
+          "id": 2,
+          "name": "Laptop",
+          "image": "/images/laptop.jpg",
+          "price": 999.99
+        }
+      ],
+      "Clothing": [
+        {
+          "id": 3,
+          "name": "T-Shirt",
+          "image": "/images/tshirt.jpg",
+          "price": 19.99
+        }
+      ],
+      "Home & Kitchen":[
+        {
+          "id": 5,
+          "name": "Coffee Maker",
+          "price": 59.99,
+          "image": "/images/coffee-maker.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Cookware Set",
+          "price": 99.99,
+          "image": "/images/cookware-set.jpg"
+        } 
+      ]
+    }
+  }
+  
